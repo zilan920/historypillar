@@ -55,7 +55,7 @@ ROOT_URLCONF = 'pillar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['randb-frontend/dist'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -66,6 +66,11 @@ TEMPLATES = [
             ],
         },
     },
+]
+
+# Add for vuejs
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "randb-frontend/dist/static"),
 ]
 
 WSGI_APPLICATION = 'pillar.wsgi.application'

@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'pillar.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'randb',
+        'NAME': 'zilan',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
     }
 }
 

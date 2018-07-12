@@ -26,7 +26,7 @@ SECRET_KEY = '91e1ndp9(z%)&h7w1xfdsdfsfsd@1q=&q4*v0evj*!+nrdl)e5lwr1_zs0&'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'http://pillar.zilan.tech/'
+    'pillar.zilan.tech/'
 ]
 
 
